@@ -1,0 +1,15 @@
+:host {
+    display: flex;
+}
+#footer{
+    flex-grow: 1;
+    display: flex;
+    min-height: 50px;
+    align-items: center;
+    justify-content: center;
+}
+#footer.span {
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}

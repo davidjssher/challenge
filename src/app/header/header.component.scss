@@ -1,0 +1,18 @@
+:host {
+    display: flex;
+}
+#header{
+    flex-grow: 1;
+    display: flex;
+    min-height: 64px;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(100deg, rgb(254, 145, 80), rgb(254, 100, 70));
+}
+.logo{
+    position: absolute;
+    background: url(/assets/aptoide-logo-dark.svg) center center no-repeat;
+    top: 0px;
+    height: 60px;
+    width: 180px;
+}
